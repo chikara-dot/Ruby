@@ -27,7 +27,7 @@ def update
   list = List.find(params[:id])
   list.update(list_params)
   redirect_to todolist_path(list.id)
-  
+
 end
 
 private
